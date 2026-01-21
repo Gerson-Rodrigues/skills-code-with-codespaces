@@ -7,5 +7,14 @@
       "installTools": true,
       "min_python_version": "3.12"
     }
-  }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
